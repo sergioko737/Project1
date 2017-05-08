@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_weight="1"
     android:orientation="vertical"
     tools:context="com.example.android.project1.MainActivity">
 
@@ -12,8 +11,7 @@
         android:id="@+id/activity_main"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="0.56"
-        android:background="@android:color/holo_blue_bright"
+        android:layout_weight="1.4"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="0dp">
 
@@ -21,8 +19,7 @@
             android:id="@+id/main_image"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:scaleType="fitStart"
-            android:background="@android:color/darker_gray"
+            android:scaleType="centerCrop"
             android:src="@drawable/tank2" />
 
         <TextView
@@ -38,41 +35,86 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight=".5"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_weight=".4"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="0dp">
 
         <RelativeLayout
-            android:id="@+id/linearLayout"
+            android:id="@+id/infoLayout"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@android:color/holo_green_light"
-            android:orientation="vertical">
+            android:layout_height="wrap_content">
+
 
             <TextView
-                android:id="@+id/textView3"
+                android:id="@+id/detailsText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="10dp"
-                android:background="@android:color/holo_orange_light"
-                android:text="Linear1"
+                android:layout_margin="10dp"
+                android:padding="0dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:text="We are the construction company.\nWe specializing in building oil tanks and reservoirs of any capacity and complexity."
                 android:textSize="24sp" />
 
-            <TextView
-                android:layout_toRightOf="@id/textView3"
-                android:layout_width="match_parent"
+            <ImageView
+                android:id="@+id/addressIcon"
+                android:layout_margin="10dp"
+                android:layout_below="@id/detailsText"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@android:color/holo_blue_bright"
-                android:text="Linear2" />
+                android:src="@drawable/mapmarker"/>
+
+            <TextView
+                android:layout_below="@id/detailsText"
+                android:layout_toEndOf="@id/addressIcon"
+                android:layout_toRightOf="@id/addressIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:text="Lidonu street 6a, Riga, LATVIA"
+                android:textSize="18sp"/>
+
+            <ImageView
+                android:id="@+id/phoneIcon"
+                android:layout_margin="10dp"
+                android:layout_below="@id/addressIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/phone"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@android:color/holo_purple"
-                android:text="dfdf"
-                android:textSize="32sp" />
+                android:layout_below="@id/addressIcon"
+                android:layout_toEndOf="@id/phoneIcon"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:layout_toRightOf="@id/phoneIcon"
+                android:text="+371 29585476"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:contentDescription="email"
+                android:layout_margin="10dp"
+                android:layout_below="@id/phoneIcon"
+                android:id="@+id/emailIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/email"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/phoneIcon"
+                android:layout_toEndOf="@id/phoneIcon"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:layout_toRightOf="@id/phoneIcon"
+                android:text="info@icc.lv"
+                android:textSize="18sp" />
 
         </RelativeLayout>
     </ScrollView>
