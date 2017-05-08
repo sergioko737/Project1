@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Project1</string>
+    <string name="_371_29585476">+371 29585476</string>
+    <string name="heading_icc_engineering">ICC ENGINEERING</string>
+    <string name="address">Lidonu street 6a, Riga, LATVIA</string>
+    <string name="intro_text">We are the construction company. We specializing in building oil tanks and reservoirs of any capacity and complexity.</string>
+    <string name="email">email</string>
+    <string name="email_value">info@icc.lv</string>
 </resources>
