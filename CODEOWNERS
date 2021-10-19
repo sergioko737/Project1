@@ -1,6 +1,6 @@
 
 
-app/src/main/AndroidManifest.xml @sergioko747
+# app/src/main/AndroidManifest.xml @sergioko747
 *.png @sergioko737
 
 *AndroidManifest.xml @github/sergioko737
