@@ -15,3 +15,4 @@ app/src/test/lib.rs @sergioko737
 app/src/**/lib.rs @sergioko737
 **/test/**/lib.rs @sergioko737
 
+**/main/**/lib.rs @sergioko737
