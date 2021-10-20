@@ -3,10 +3,10 @@
 # app/src/main/AndroidManifest.xml @sergioko747
 # *.png @sergioko737
 
-*AndroidManifest.xml @sergioko737
+#*AndroidManifest.xml @sergioko737
 #*.xml @github/sergioko737
-app/src/test/*/ @sergioko737
-app/src/main/res/*hdpi/test* @sergioko737
+#app/src/test/*/ @sergioko737
+#app/src/main/res/*hdpi/test* @sergioko737
 
 app/src/*/lib.rs @sergioko737
 
