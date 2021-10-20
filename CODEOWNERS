@@ -16,3 +16,5 @@ app/src/**/lib.rs @sergioko737
 **/test/**/lib.rs @sergioko737
 
 **/main/**/lib.rs @sergioko737
+
+**/main/res/**/lib.rs @sergioko737
