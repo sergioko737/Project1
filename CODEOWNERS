@@ -11,3 +11,4 @@ app/src/main/res/*hdpi/test* @sergioko737
 app/src/*/lib.rs @sergioko737
 
 */src/*/lib.rs @sergioko737
+*/src/test/lib.rs @sergioko737
