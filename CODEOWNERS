@@ -13,5 +13,5 @@ lib.rs @sergioko737
 */src/*/lib.rs @sergioko737
 app/src/test/lib.rs @sergioko737
 app/src/**/lib.rs @sergioko737
-**test/*/lib.rs @sergioko737
+**test/**/lib.rs @sergioko737
 
