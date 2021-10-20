@@ -8,4 +8,4 @@
 app/src/test/*/ @sergioko737
 app/src/main/res/*hdpi/test* @sergioko737
 
-*/test/lib.rs @sergioko737
+*test/lib.rs @sergioko737
